@@ -1,40 +1,12 @@
-# reflective
+# Reflective
 
-This template should help get you started developing with Vue 3 in Vite.
+A custom Magic Mirror project which primarily depends on Home Assistant. Designed to run on a Raspberry Pi 3B+ or above with a 23" 1080p monitor in portrait mode.
 
-## Recommended IDE Setup
+This project is in active development. I will update this README as I make progress.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Although this project is for personal use, I am making it public in case anyone else finds it useful. Feel free to use any of the code in this project for your own purposes. However, if you write a cool blog post or make a cool video about it, I'd appreciate a link back to this repo.
 
-## Type Support for `.vue` Imports in TS
+I am aware of the MagicMirror2 project and although it is very cool, I wanted to build my own from scratch for the learning experience.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+### Screenshot
+[<img src="screenshot.png" width="400">](screenshot.png)

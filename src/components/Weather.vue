@@ -46,6 +46,7 @@ defineProps<{
 </template>
 <style scoped lang="scss">
 .weather {
+    flex-grow: 1;
     align-items: flex-end;
     display: flex;
     gap: 1.5rem;
@@ -63,13 +64,16 @@ defineProps<{
             gap: 1rem;
             opacity: 0;
             font-weight: 500;
+            transition: opacity 1s ease-in-out;
 
             .weather-icon {
                 width: 24px;
                 height: 24px;
             }
 
-            transition: opacity 1s ease-in-out;
+            .temperature{
+                width: 55px;
+            }
 
             &.visible {
                 opacity: 1;
@@ -112,7 +116,6 @@ defineProps<{
                 font-size: 36px;
                 line-height: 26px;
                 font-weight: 700;
-                width: 55px;
 
                 span.unit {
                     font-size: 18px;
